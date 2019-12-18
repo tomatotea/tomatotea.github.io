@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CandyJP - Payment Form</title>
+
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="grid-headerborder">
+      <header class="grid-fullwidth top-header">
+        <div class="title-grid">
+          <a href="index.html">
+            <img src="img/jp-logo.png" alt="CandyJP logo, a white candy">
+          </a>
+          <h1 class="heading-1"><a href="index.html">CandyJP</a></h1>
+        </div>
+        <div class="search-grid">
+          <input class="text-input" type="text" name="search" id="search" placeholder="Search here">
+          <a href="productView.html">
+          <input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"></a>
+        </div>
+      </header>
+
+      <nav class="nav-main">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="aboutus.html" class="nav-item">About Us</a>
+        <a href="candies.html" class="nav-item">Products</a>
+        <a href="shoppingcart.html" class="nav-item">Shopping Cart</a>
+      </nav>
+    </div>
+
+    <section class="middle-section grid-border">
+    <form class="pay-form">
+      <h2 class="heading-2">Contact Information</h2>
+      <label class="text-label" for ="email">Email:</label>
+      <input class="text-input" type="text" name="email" id="email" placeholder="Email">
+      <input class="text-input" type="text" name="email-confirm" id="email-confirm" placeholder="Confirm Email">
+      <label class="text-label" for="phone">Phone Number:</label>
+      <input class="text-input" type="text" name="phone" id="phone" placeholder="Phone Number">
+    </form>
+    <form class="paymethod">
+      <h2 class="heading-2">Payment Method</h2>
+      <a href="http://www.paypal.com">
+        <img src="https://www.underconsideration.com/brandnew/archives/paypal_2014_logo_detail.png" alt="Image of the product" width="100" height="100">
+      </a>
+    </form>
+    <form class="pay-form">
+      <h2 class="heading-2">Shipping Information</h2>
+
+      <label class="text-label" for ="first-name">Full Name:</label>
+      <input class="text-input" type="text" name="first-name" id="first-name" placeholder="First Name">
+      <input class="text-input" type="text" name="last-name" id="last-name" placeholder="Last Name">
+
+      <label class="text-label" for ="address">Address:</label>
+      <input class="text-input" type="text" name="address" id="address" placeholder="Address">
+      <input class="text-input" type="text" name="city" id="city" placeholder="City">
+      <input class="text-input" type="text" name="country" id="country" placeholder="Country">
+      <input class="text-input" type="text" name="province" id="province" placeholder="Province">
+      <input class="text-input" type="text" name="code" id="code" placeholder="Postal Code">
+
+      <div class="pay-button-grid">
+      <a href="success.html" target="_blank" class="button button-submit">Confirm</a>
+      <a href="shoppingcart.html" class="button button-reset">Back</a>
+      </div>
+    </form>
+
+
+    </section>
+    <footer class="footer-grid footer">
+      <div class="grid-thirty">
+        <p><strong>Address</strong></p>
+        <p> 1243 545 A Street Vancouver</p>
+        <p> British Columbia, Canada </p>
+      </div>
+      <div class="grid-thirty">
+        <p><strong>Email</strong></p>
+        <p>CandyJP@gmail.com</p>
+      </div>
+      <div class="grid-thirty">
+        <p><strong>Phone Number</strong></p>
+        <p>(604) 334-2123</p>
+      </div>
+      <div class="grid-fullwidth text-center">
+        <p>Student project for IAT 339 - Web Design and Development by Jodie Chang and Daphne Hsu</p>
+        <p><a href="citations.html">Citation Page</a> |
+           <a href="updatedStyleGuide.html">Style Guide</a> |
+            <a href="https://github.com/tomatotea/IAT339_P02/commits/master">GitHub</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+
+</html>

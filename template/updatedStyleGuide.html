@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P02 - Style Guide</title>
+
+    <link href="css/template.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1 class="heading-1">P02: Style Guide</h1>
+    <p> CandyJP is a company that sells Japanese candies online and ships the product all over the world. The types of products range from modern DIY gummy kits to traditional wagashi eaten in Japanese tea ceremonies. Potential customers could be people who enjoy food or have a sweet tooth. By purchasing from CandyJP, candy lovers get an opportunity to try something that is different than what they normally would get in their countries.</p>
+    <nav>
+
+      <p>
+        Go to:
+        <a class="link-intext" href="index.html">CandyJP</a>,
+        <a class="link-intext" href="citations.html">Citations</a>
+      </p>
+      <p>
+        Go to:
+        <a class="link-intext" href="#interactive_elements">Interactive Elements</a>,
+        <a class="link-intext" href="#text_elements">Text Elements</a>,
+        <a class="link-intext" href="#combined_elements">Combined Elements</a>
+      </p>
+
+    </nav>
+
+    <!-- INTERACTIVE ELEMENTS SECTION -->
+    <section id="interactive_elements">
+      <h1 class="heading-1">Interactive Elements</h1>
+      <section class="grid-border">
+        <h2 class="heading-2">In-text link</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.link-intext</p>
+          <h3>Sample code</h3>
+
+          <code class="grid">&lt;a href="#" class="link-intext"&gt;In Text Link&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <p>A sentence with a <a class="link-intext" href="#">In-text link</a>.</p>
+        </div>
+      </section>
+
+      <!-- Default Button styling section -->
+      <section class="grid-border">
+
+        <h2 class="heading-2">Navigation Button</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.button</p>
+          <p>.button-nav</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;a href="#" class="button button-nav"&gt;Navigation Button&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <a class="button button-nav" href="#">Navigation Button</a>
+        </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Submit/Reset Buttons</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.button .button-reset</p>
+          <p>.button .button-submit</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;a href="#" class="button button-submit button-reset"&gt;Reset Button&lt;/a&gt;<br>
+          &lt;a href="#" class="button button-submit"&gt;Submit Button&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <a class="button button-reset" href="#">Reset Button</a>
+          <a class="button button-submit" href="#">Submit Button</a>
+        </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Text Input Field and Label</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.text-input</p>
+          <p>.text-label</p>
+
+          <h3>Sample code:</h3>
+
+          <code class="grid">
+            &lt;label class="text-label" for ="location">Location:&lt;/label&gt; <br>
+            &lt;input class="text-input" type="text" name="location" id="location" placeholder="Location"&gt;
+          </code>
+
+          <h3>Rendered element:</h3>
+          <form>
+            <label class="text-label" for ="location">Location:</label>
+            <input class="text-input" type="text" name="location" id="location" placeholder="Location">
+          </form>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="text_elements">
+      <h1 class="heading-1">Text Elements</h1>
+      <section class="grid-border">
+        <h2 class="heading-2">Headings</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.heading-1</p>
+          <p>.heading-2</p>
+          <p>.heading-3</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;h1 class="heading-1"&gt;Heading 1&lt;/h1&gt;<br>
+            &lt;h2 class="heading-2"&gt;Heading 2&lt;/h2&gt;<br>
+            &lt;h3 class="heading-3"&gt;Heading 3&lt;/h3&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h1 class="heading-1">Heading 1</h1>
+          <h2 class="heading-2">Heading 2</h2>
+          <h3 class="heading-3">Heading 3</h3>
+        </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Paragraphs</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.para</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;p class="para"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eros tortor, posuere at consectetur eget, laoreet mollis ipsum. Sed lacinia elit eu laoreet luctus. Aliquam erat volutpat. Praesent aliquam ex turpis, nec aliquam dui venenatis in. Donec et neque ac erat placerat ullamcorper. Curabitur ac eleifend enim. Nunc lobortis dictum augue, sed tristique risus iaculis vestibulum. Fusce ac fringilla dui. Proin mi magna, aliquam ac tincidunt vel, pharetra varius ante. Praesent varius leo mi, quis porta lacus pulvinar in.&lt;/p&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eros tortor, posuere at consectetur eget, laoreet mollis ipsum. Sed lacinia elit eu laoreet luctus. Aliquam erat volutpat. Praesent aliquam ex turpis, nec aliquam dui venenatis in. Donec et neque ac erat placerat ullamcorper. Curabitur ac eleifend enim. Nunc lobortis dictum augue, sed tristique risus iaculis vestibulum. Fusce ac fringilla dui. Proin mi magna, aliquam ac tincidunt vel, pharetra varius ante. Praesent varius leo mi, quis porta lacus pulvinar in.</p>
+        </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Bulleted Lists</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.list-bulleted</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;ul class="list-bullet"&gt;<br>
+            &lt;li&gt;Item 1&lt;/li&gt;<br>
+            &lt;li&gt;Item 2&lt;/li&gt;<br>
+            &lt;li&gt;Item 3&lt;/li&gt;<br>
+            &lt;/ul&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <ul class="list-bullet">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Numbered Lists</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.list-number</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;ol class="list-number"&gt;<br>
+            &lt;li&gt;Item 1&lt;/li&gt;<br>
+            &lt;li&gt;Item 2&lt;/li&gt;<br>
+            &lt;li&gt;Item 3&lt;/li&gt;<br>
+            &lt;/ol&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <ol class="list-number">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h1 class="heading-1">Combined Elements</h1>
+      <section class="grid-border">
+        <h2 class="heading-2">Main Navigation</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.nav-main</p>
+          <p>.nav-item</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;nav class="nav-main"&gt;<br>
+            &lt;a href="#" class="nav-item"&gt;Home&lt;/a&gt;<br>
+            &lt;a href="#" class="nav-item"&gt;About Us&lt;/a&gt;<br>
+            &lt;a href="#" class="nav-item"&gt;Products&lt;/a&gt;<br>
+            &lt;a href="#" class="nav-item"&gt;Shopping Cart&lt;/a&gt;<br>
+            &lt;/nav&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <nav class="nav-main">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="aboutus.html" class="nav-item">About Us</a>
+            <a href="candies.html" class="nav-item">Products</a>
+            <a href="shoppingcart.html" class="nav-item">Shopping Cart</a>
+          </nav>
+        </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Product Listing</h2>
+        <div class="style-body">
+
+            <h3>CSS selector:</h3>
+            <p>.grid-twenty-product</p>
+            <p>.grid-whitebackground</p>
+            <h3>Sample code:</h3>
+            <code class="grid">
+              &lt;div class="grid-twenty-product"&gt; <br>
+                &lt;div class="grid-whitebackground"&gt; <br>
+                  &lt;a href="productView.html"&gt;<br>
+                    &lt;img src="img/matcha-caramel.jpg" alt="green package matcha caramel candy"&gt;<br>
+                  &lt;/a&gt;<br>
+                  &lt;a href="productView.html" class="link-intext"&gt;&lt;h3&gt;Morinaga Matcha Caramel Chewy Candy&lt;/h3>&lt;/a&gt;<br>
+                  &lt;p>&lt;strong>Item Number:&lt;/strong&gt; 13459&lt;/p&gt;<br>
+                  &lt;p>&lt;strong>Weight:&lt;/strong&gt; 82g&lt;/p&gt;<br>
+                  &lt;p>&lt;strong>Price:&lt;/strong&gt; $3.30&lt;/p&gt;<br>
+                &lt;/div&gt;<br>
+              &lt;/div&gt;<br>
+            </code>
+            <h3>Rendered element:</h3>
+
+            <div class="grid-border grid-graybackground">
+              <div class="grid-group">
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                  <a href="productViewHalloween.html">
+                    <img src="img/halloween-set.jpg" alt="Halloween special candy set">
+                  </a>
+                  <a href="productViewHalloween.html" class="link-intext"><h3>Halloween Pumpkin Snack O' Lantern Set</h3></a>
+                    <p><strong>Item Number:</strong> 13456</p>
+                    <p><strong>Weight:</strong> 150g</p>
+                    <p><strong>Price:</strong> $10.98</p>
+                </div>
+              </div>
+
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                  <a href="productView.html">
+                    <img src="img/lotte-plum.jpg" alt="red package plum candy">
+                  </a>
+                  <a href="productView.html" class="link-intext"><h3>Lotte Plum Boiled Sweet Candy</h3></a>
+                    <p><strong>Item Number:</strong> 13457</p>
+                    <p><strong>Weight:</strong> 68g</p>
+                    <p><strong>Price:</strong> $4.45</p>
+                  </div>
+                </div>
+
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                    <a href="productViewHalloween.html">
+                      <img src="img/kasugai-grape.jpg" alt="dark pruple package grape flavor candy">
+                    </a>
+                    <a href="productViewHalloween.html" class="link-intext"><h3>Kasugai 100 Grape Gummy Candy</h3></a>
+                    <p><strong>Item Number:</strong> 13458</p>
+                    <p><strong>Weight:</strong> 107g</p>
+                    <p><strong>Price:</strong> $4.75</p>
+                  </div>
+                </div>
+
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                    <a href="productView.html">
+                      <img src="img/matcha-caramel.jpg" alt="green package matcha caramel candy">
+                    </a>
+                    <a href="productView.html" class="link-intext"><h3>Morinaga Matcha Caramel Chewy Candy</h3></a>
+                    <p><strong>Item Number:</strong> 13459</p>
+                    <p><strong>Weight:</strong> 82g</p>
+                    <p><strong>Price:</strong> $3.30</p>
+                  </div>
+                </div>
+
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                    <a href="productViewHalloween.html">
+                      <img src="img/orion-candy.jpg" alt="orion candy soda flavor">
+                    </a>
+                    <a href="productViewHalloween.html" class="link-intext"><h3>Orion Sour Mini Tablet Candy</h3></a>
+                    <p><strong>Item Number:</strong> 13460</p>
+                    <p><strong>Weight:</strong> 9g</p>
+                    <p><strong>Price:</strong> $0.75</p>
+                  </div>
+                </div>
+
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                    <a href="productView.html">
+                      <img src="img/paw-gummy.jpg" alt="chewing gum with a cat on the package">
+                    </a>
+                    <a href="productView.html" class="link-intext"><h3>Senjyakuame Paw Shaped Grape-Orange Gummy</h3></a>
+                    <p><strong>Item Number:</strong> 13461</p>
+                    <p><strong>Weight:</strong> 80g</p>
+                    <p><strong>Price:</strong> $3.85</p>
+                  </div>
+                </div>
+
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                    <a href="productViewHalloween.html">
+                      <img src="img/12669-bourbon-fettuccine-peach-gummy.jpg" alt="Peach Gummy Candy">
+                    </a>
+                    <a href="productViewHalloween.html" class="link-intext"><h3>Bourbon Fettuccine Gummi Peach Gummy</h3></a>
+                    <p><strong>Item Number:</strong> 14562</p>
+                    <p><strong>Weight:</strong> 50g</p>
+                    <p><strong>Price:</strong>  $2.85</p>
+                  </div>
+                </div>
+
+                <div class="grid-twenty-product">
+                  <div class="grid-whitebackground">
+                    <a href="productView.html">
+                      <img src="img/meiji-lemon.jpg" alt="carton lemon candy">
+                    </a>
+                    <a href="productView.html" class="link-intext"><h3>Meiji Hi Lemon Tablet Candy</h3></a>
+                    <p><strong>Item Number:</strong> 13463</p>
+                    <p><strong>Weight:</strong> 27g</p>
+                    <p><strong>Price:</strong> $3.45</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Grid Structure</h2>
+        <div class="style-body">
+
+          <h3>CSS selector:</h3>
+          <p>.grid</p>
+          <p>.grid-group</p>
+          <p>.grid-half</p>
+          <p>.grid-thirty</p>
+          <p>.grid-seventy</p>
+          <p>.grid-fullwidth</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;div class="grid"&gt;<br>
+            &lt;div class="grid-fullwidth"&gt;heading&lt;/div&gt;<br>
+            &lt;div class="grid-group"&gt;<br>
+            &lt;div class="grid-thirty"&gt;1/3&lt;/div&gt;<br>
+            &lt;div class="grid-seventy"&gt;2/3&lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="grid-group"&gt;<br>
+            &lt;div class="grid-half"&gt;1/2&lt;/div&gt;<br>
+            &lt;div class="grid-half"&gt;1/2&lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="grid-fullwidth"&gt;footer&lt;/div&gt;<br>
+            &lt;/div&gt;
+          </code>
+
+          <h3>Rendered element:</h3>
+          <div class="grid-structure-container">
+            <div class = "grid-fullwidth">Full-width Heading</div>
+            <div class="grid-group">
+              <div class="grid-seventy">2/3</div>
+              <div class="grid-thirty">1/3</div>
+            </div>
+            <div class="grid-group">
+              <div class="grid-half">1/2</div>
+              <div class="grid-half">Columns</div>
+            </div>
+            <div class="grid-group">
+              <div class="grid-thirty">1/3 size</div>
+              <div class="grid-thirty">Triple</div>
+              <div class="grid-thirty">Column</div>
+            </div>
+            <div class="grid-group">
+              <div class="grid-twenty-product">1/4 size</div>
+              <div class="grid-twenty-product">Quarter</div>
+              <div class="grid-twenty-product">Column</div>
+              <div class="grid-twenty-product">Grid</div>
+            </div>
+            <div class = "grid-fullwidth">footer</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-border">
+        <h2 class="heading-2">Colour Swatches</h2>
+        <div class="style-body">
+          <h3>CSS selector:</h3>
+          <p>.box-color</p>
+
+          <h3>Sample code:</h3>
+          <code class="grid">&lt;div class="box-color box-red"&gt;<br>
+            &lt;p&gt;#C42529
+            &lt;/p&gt;<br>
+            &lt;/div&gt;
+            </code>
+
+          <h3>Rendered element:</h3>
+            <div class="box-color box-lightgrey">
+              <p>#d1d1d1</p>
+            </div>
+            <div class="box-color box-red">
+              <p>#C42529</p>
+            </div>
+          </div>
+      </section>
+    </section>
+
+    <section class="grid-border">
+      <h2 class="heading-2">Header</h2>
+      <div class="style-body">
+        <h3>CSS selector:</h3>
+        <p>.grid-headerborder</p>
+        <p>.grid-fullwidth</p>
+        <p>.top-header</p>
+        <p>.logo-grid</p>
+        <p>.title-grid</p>
+        <p>.search-grid</p>
+
+        <h3>Sample code:</h3>
+        <code class="grid">
+          &lt;div class="grid-headerborder"&gt;<br>
+            &lt;header class="grid-fullwidth top-header"&gt;<br>
+              &lt;div class="title-grid"&gt;<br>
+                &lt;a href="index.html"&gt;<br>
+                  &lt;img src="img/jp-logo.png" alt="CandyJP logo, a white candy"&gt;<br>
+                &lt;/a&gt;<br>
+                &lt;h1 class="heading-1">&lt;a href="index.html">CandyJP&lt;/a&gt;&lt;/h1&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="search-grid"&gt;<br>
+                &lt;input class="text-input" type="text" name="search" id="search" placeholder="Search here"&gt;<br>
+                &lt;a href="productView.html"&gt;<br>
+                &lt;input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"&gt;&lt;/a&gt;<br>
+              &lt;/div&gt;<br>
+            &lt;/header&gt;<br>
+            &lt;nav class="nav-main"&gt;<br>
+              &lt;a href="index.html" class="nav-item">Home&lt;/a&gt;<br>
+              &lt;a href="aboutus.html" class="nav-item">About Us&lt;/a&gt;<br>
+              &lt;a href="candies.html" class="nav-item">Products&lt;/a&gt;<br>
+              &lt;a href="shoppingcart.html" class="nav-item">Shopping Cart&lt;/a&gt;<br>
+            &lt;/nav&gt;<br>
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid-headerborder">
+          <header class="grid-fullwidth top-header">
+            <div class="title-grid">
+              <a href="index.html">
+                <img src="img/jp-logo.png" alt="CandyJP logo, a white candy">
+              </a>
+              <h1 class="heading-1"><a href="index.html">CandyJP</a></h1>
+            </div>
+            <div class="search-grid">
+              <input class="text-input" type="text" name="search" id="search" placeholder="Search here">
+              <a href="productView.html">
+              <input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"></a>
+            </div>
+          </header>
+
+          <nav class="nav-main">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="aboutus.html" class="nav-item">About Us</a>
+            <a href="candies.html" class="nav-item">Products</a>
+            <a href="shoppingcart.html" class="nav-item">Shopping Cart</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-border">
+      <h2 class="heading-2">Shopping Cart</h2>
+      <div class="style-body">
+        <h3>CSS selector:</h3>
+        <p>.grid-group</p>
+        <p>.grid-twenty</p>
+        <p>.grid-thirty</p>
+        <p>.div-text</p>
+        <p>.center</p>
+
+        <h3>Sample code:</h3>
+        <code class="grid">&lt;div class="grid-group"&gt;<br>
+          &lt;div class="grid-twenty"&gt;<br>
+          &lt;img src="img/lotte-plum.jpg" alt="red package plum candy"&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="grid-thirty div-text center"&gt;<br>
+          &lt;h3&gt;Lotte Plum Boiled Sweet Candy&lt;/h3&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Item Number:&lt;/strong&gt;13457&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Amount:&lt;/strong&gt;1&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Price:&lt;/strong&gt;$4.45&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="grid-twenty div-text"&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Price:&lt;/strong&gt;$4.45&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Tax  :&lt;/strong&gt;$0.53&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt;$4.98&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="grid-twenty"&gt;<br>
+          &lt;a href="shoppingcart_oneitem.html" class="button button-reset"&gt;Remove Item&lt;/a&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid-border">
+          <h2 class="heading-2">Shopping Cart</h2>
+
+          <div class="grid-group">
+            <div class="grid-twenty">
+              <img src="img/lotte-plum.jpg" alt="red package plum candy">
+            </div>
+            <div class="grid-thirty div-text center">
+              <h3>Lotte Plum Boiled Sweet Candy</h3>
+              <p><strong>Item Number:</strong> 13457</p>
+              <p><strong>Amount:</strong> 1</p>
+              <p><strong>Price:</strong> $4.45</p>
+            </div>
+            <div class="grid-twenty div-text">
+              <p><strong>Price:</strong> $4.45</p>
+              <p><strong>Tax  :</strong> $0.53</p>
+              <p><strong>Total:</strong> $4.98</p>
+            </div>
+            <div class="grid-twenty">
+              <a href="shoppingcart_oneitem.html" class="button button-reset"> Remove Item</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="grid-border">
+      <h2 class="heading-2">Footer</h2>
+      <div class="style-body">
+        <h3>CSS selector:</h3>
+        <p>.footer-grid</p>
+        <p>.footer</p>
+        <p>.grid-thirty</p>
+        <p>.grid-fullwidth</p>
+        <p>.text-center</p>
+
+        <h3>Sample code:</h3>
+        <code class="grid">&lt;footer class="footer-grid footer"&gt;<br>
+          &lt;div class = "grid-thirty" &gt;<br>
+          &lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;&lt;/p&gt;<br>
+          &lt;p&gt;1243 545 A Street Vancouver&lt;/p&gt;<br>
+          &lt;p&gt;British Columbia, Canada&lt;/p&gt;<br>
+          &lt;div class = "grid-fullwidth text-center"&gt;<br>
+          &lt;p&gt;Student project for IAT 339 - Web Design and Development by Jodie Chang and Daphne Hsu&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/footer&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <footer class="footer-grid footer">
+          <div class="grid-thirty">
+            <p><strong>Address</strong></p>
+            <p> 1243 545 A Street Vancouver</p>
+            <p> British Columbia, Canada </p>
+          </div>
+          <div class="grid-thirty">
+            <p><strong>Email</strong></p>
+            <p>CandyJP@gmail.com</p>
+          </div>
+          <div class="grid-thirty">
+            <p><strong>Phone Number</strong></p>
+            <p>(604) 334-2123</p>
+          </div>
+          <div class="grid-fullwidth text-center">
+            <p>Student project for IAT 339 - Web Design and Development by Jodie Chang and Daphne Hsu</p>
+            <p><a href="citations.html">Citation Page</a> |
+               <a href="updatedStyleGuide.html">Style Guide</a> |
+               <a href="https://github.com/tomatotea/IAT339_P02/commits/master">GitHub</a>
+            </p>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+    <section class="grid-border">
+      <h2 class="heading-2">Product View</h2>
+      <div class="style-body">
+        <h3>CSS selector:</h3>
+        <p>.grid-border</p>
+        <p>.heading-2</p>
+        <p>.grid-group</p>
+        <p>.grid-thirty</p>
+        <p>.grid-forty</p>
+        <p>.div-text</p>
+        <p>.paray</p>
+        <p>#form-product</p>
+
+        <h3>Sample code:</h3>
+        <code class="grid">&lt;div class="grid-border"&gt;<br>
+          &lt;h2 class="heading-2"&gt;Lotte Plum Boiled Sweet Candy&lt;/h2&gt;<br>
+          &lt;div class="grid-group"&gt;<br>
+          &lt;div class="grid-thirty"&gt;<br>
+          &lt;img src="img/lotte-plum.jpg" alt="red package plum candy"&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="grid-forty div-text para"&gt;<br>
+          &lt;p&gt;A medium-sized bag of Japanese plum flavoured hard boiled candy. Each spherical sweet has three layers: the outermost layer is plum powder, then there is the sweet boiled candy part and in the middle is a slightly salty soft plum paste. The sweetness of the candy complements perfectly the saltiness and sourness of the plum. Every packet contains two giant versions of the sweet&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Item Number:&lt;/strong&gt;13457&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Weight:&lt;/strong&gt;68g&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Price:&lt;/strong&gt;$4.45&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="grid-thirty"&gt;<br>
+          &lt;form id="form-product"&gt;<br>
+          &lt;label for="amount"&gt;;&lt;strong&gt;Amount:;&lt;/strong&gt;&lt;label&gt;&lt;br&gt;<br>
+          &lt;input class="button-amount" type="text" name="amunt" id="amount" value="1"&gt;&lt;br&gt;<br>
+          &lt;a class="button button-submit" href="shoppingcart.html"&gt;Add to cart&lt;/a&gt;&lt;br&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/form&gt;<br>
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid-border">
+          <h2 class="heading-2">Lotte Plum Boiled Sweet Candy</h2>
+          <div class="grid-group">
+            <div class="grid-thirty">
+              <img src="img/lotte-plum.jpg" alt="red package plum candy">
+            </div>
+            <div class="grid-forty div-text para">
+              <p>A medium-sized bag of Japanese plum flavoured hard boiled candy. Each spherical sweet has three layers: the outermost layer is plum powder, then there is the sweet boiled candy part and in the middle is a slightly salty soft plum paste. The sweetness of the candy complements perfectly the saltiness and sourness of the plum. Every packet contains two giant versions of the sweet.</p>
+              <p><strong>Item Number:</strong> 13457</p>
+              <p><strong>Weight:</strong> 68g</p>
+              <p><strong>Price:</strong> $4.45</p>
+            </div>
+
+            <div class="grid-thirty">
+              <form id="form-product">
+                <label for="amount"><strong>Amount:</strong></label>
+                <br>
+                <input class="button-amount" type="text" name="amunt" id="amount" value="1">
+                <br>
+                <a class="button button-submit" href="shoppingcart.html">Add to cart</a>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="grid-border">
+      <h2 class="heading-2">Form</h2>
+      <div class="style-body">
+        <h3>CSS selector:</h3>
+        <p>.pay-form</p>
+        <h3>Sample code:</h3>
+        <code class="grid">
+          &lt;form class="pay-form"&gt;<br>
+            &lt;h2 class="heading-2">Contact Information&lt;/h2&gt;<br>
+            &lt;label class="text-label" for ="email">Email:&lt;/label&gt;<br>
+            &lt;input class="text-input" type="text" name="email" id="email" placeholder="Email"&gt;<br>
+            &lt;input class="text-input" type="text" name="email-confirm" id="email-confirm" placeholder="Confirm Email"&gt;<br>
+            &lt;label class="text-label" for="phone">Phone Number:&lt;/label&gt;<br>
+            &lt;input class="text-input" type="text" name="phone" id="phone" placeholder="Phone Number"&gt;<br>
+          &lt;/form&gt;<br>
+        </code>
+        <h3>Rendered element:</h3>
+        <form class="pay-form">
+          <h2 class="heading-2">Contact Information</h2>
+          <label class="text-label" for ="email">Email:</label>
+          <input class="text-input" type="text" name="email" id="email" placeholder="Email">
+          <input class="text-input" type="text" name="email-confirm" id="email-confirm" placeholder="Confirm Email">
+          <label class="text-label" for="phone">Phone Number:</label>
+          <input class="text-input" type="text" name="phone" id="phone" placeholder="Phone Number">
+        </form>
+      </div>
+    </section>
+
+    <section class="grid-border">
+      <h2 class="heading-2">News and Events</h2>
+      <div class="style-body">
+        <h3>CSS selector:</h3>
+        <p>.events</p>
+        <h3>Sample code:</h3>
+        <code class="grid">
+          &lt;div class="events"&gt;<br>
+            &lt;h2 class="heading-2"&gt;News and Events&lt;/h2&gt;<br>
+            &lt;h3 class="heading-3"&gt;Kyoto Wagashi Workshop&lt;/h3&gt;<br>
+            &lt;img src="https://static1.squarespace.com/static/563858d6e4b08459c5ff1ccc/5771da569de4bbb95cf22f6f/5771da58bebafb593db90011/1467079257879/Wagashi-3.jpg" alt="Assortment of wagashi"&gt;<br>
+            &lt;p class="para">Kyoto is famous for its beautiful and delicate wagashi - Japanese traditional handmade confectioneries.
+            Enjoy a delightful evening where you can create your own colourful wagashi served with a bowl of freshly whisked matcha.
+            Come join us at the &lt;a href="https://www.vancouverconventioncentre.com/" class="link-intext">Vancouver Convention Centre&lt;/a&gt;!<br>
+            &lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+        </code>
+        <h3>Rendered element:</h3>
+        <div class="events">
+          <h2 class="heading-2">News and Events</h2>
+          <h3 class="heading-3">Kyoto Wagashi Workshop</h3>
+          <img src="https://static1.squarespace.com/static/563858d6e4b08459c5ff1ccc/5771da569de4bbb95cf22f6f/5771da58bebafb593db90011/1467079257879/Wagashi-3.jpg" alt="Assortment of wagashi">
+          <p class="para">Kyoto is famous for its beautiful and delicate wagashi - Japanese traditional handmade confectioneries.
+          Enjoy a delightful evening where you can create your own colourful wagashi served with a bowl of freshly whisked matcha.
+          Come join us at the <a href="https://www.vancouverconventioncentre.com/" class="link-intext">Vancouver Convention Centre</a>!
+          </p>
+
+          <h3 class="heading-3">Halloween Set</h3>
+          <img src="http://r.hswstatic.com/w_907/gif/podcasts/stuffyoushouldknow-podcasts-wp-content-uploads-sites-16-2015-10-halloween2015600x350.jpg" alt="Four halloween pumpkin carvings">
+          <p class="para">
+            Halloween is coming up! Why not check out our limited time only <a href="productViewHalloween.html" class="link-intext">Halloween Candy set</a> straight from Japan!
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-border">
+      <h2 class="heading-2">Highlight</h2>
+      <div class="style-body">
+        <h3>CSS selector:</h3>
+        <p>.homepage-products</p>
+        <p>.grid-thirty</p>
+        <p>.grid-whitebackground</p>
+        <h3>Sample code:</h3>
+        <code class="grid">
+          &lt;div class="homepage-products"&gt;<br>
+            &lt;h2 class="heading-2">Latest Product&lt;/h2&gt;<br>
+            &lt;div class="grid-thirty"&gt;<br>
+              &lt;div class="grid-whitebackground"&gt;<br>
+                &lt;a href="productView.html"&gt;<br>
+                  &lt;img src="img/lotte-plum.jpg" alt="Plum candies"&gt;<br>
+                &lt;a&gt;<br>
+                &lt;a href="productView.html" class="link-intext"&gt;&lt;h3&gt;Lotte Plum Boiled Sweet Candy&lt;/h3&gt;&lt;/a&gt;<br>
+                &lt;p>&lt;strong>Price:&lt;/strong> $4.45&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+        </code>
+        <h3>Rendered element:</h3>
+        <div class="homepage-products">
+          <h2 class="heading-2">Latest Product</h2>
+          <div class="grid-thirty">
+            <div class="grid-whitebackground">
+              <a href="productView.html">
+                <img src="img/lotte-plum.jpg" alt="Plum candies">
+              </a>
+              <a href="productView.html" class="link-intext"><h3>Lotte Plum Boiled Sweet Candy</h3></a>
+              <p><strong>Price:</strong> $4.45</p>
+          </div>
+          </div>
+          <div class="grid-thirty">
+            <div class="grid-whitebackground">
+              <a href="productViewHalloween.html">
+                <img src="img/halloween-set.jpg" alt="Set of Halloween candy">
+              </a>
+              <a href="productViewHalloween.html" class="link-intext"><h3>Halloween Pumpkin Snack O' Lantern Set</h3></a>
+              <p><strong>Price:</strong> $10.98</p>
+          </div>
+          </div>
+          <div class="grid-thirty">
+            <div class="grid-whitebackground">
+              <a href="productView.html">
+                <img src="img/kasugai-grape.jpg" alt="Grape flavored gummies">
+              </a>
+              <a href="productView.html" class="link-intext"><h3>Kasugai 100 Grape Gummy Candy</h3></a>
+              <p><strong>Price:</strong> $4.75</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
